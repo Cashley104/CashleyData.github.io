@@ -4840,6 +4840,9 @@ input, select, textarea {
 
 	body.portfolio-redesign .project-image-wrap {
 		background: #f6f8fa;
+		border-bottom: 1px solid #e7eaee;
+		border-bottom-color: #e7eaee !important;
+		display: block;
 		padding: 0.9rem 0.9rem 0.8rem 0.9rem;
 	}
 
