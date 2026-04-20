@@ -4719,7 +4719,7 @@ input, select, textarea {
 
 	body.portfolio-redesign .portfolio-hero {
 		margin: 0 auto 2rem auto;
-		max-width: 46rem;
+		max-width: 54rem;
 		text-align: center;
 	}
 
@@ -4734,19 +4734,21 @@ input, select, textarea {
 	}
 
 	body.portfolio-redesign .portfolio-hero h1 {
-		font-size: 2.6rem;
+		font-size: 3.2rem;
 		letter-spacing: 0.04em;
-		line-height: 1.05;
+		line-height: 1;
 		margin: 0 0 0.55rem 0;
 		text-transform: uppercase;
 	}
 
 	body.portfolio-redesign .portfolio-subtitle {
 		color: rgba(255, 255, 255, 0.78);
-		font-size: 0.98rem;
+		font-size: 0.9rem;
 		font-style: italic;
-		line-height: 1.5;
-		margin: 0;
+		line-height: 1.45;
+		margin: 0 auto;
+		max-width: 34rem;
+		text-align: center;
 	}
 
 	body.portfolio-redesign .portfolio-content {
@@ -4820,6 +4822,11 @@ input, select, textarea {
 
 	body.portfolio-redesign .ordered-grid {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
+	body.portfolio-redesign .extension-grid {
+		grid-template-columns: repeat(2, minmax(0, 20rem));
+		justify-content: center;
 	}
 
 	body.portfolio-redesign .project-card {
@@ -4920,6 +4927,10 @@ input, select, textarea {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 
+		body.portfolio-redesign .extension-grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
 	}
 
 	@media screen and (max-width: 736px) {
@@ -4929,11 +4940,11 @@ input, select, textarea {
 		}
 
 		body.portfolio-redesign .portfolio-hero h1 {
-			font-size: 1.8rem;
+			font-size: 2.2rem;
 		}
 
 		body.portfolio-redesign .portfolio-subtitle {
-			font-size: 0.84rem;
+			font-size: 0.8rem;
 		}
 
 		body.portfolio-redesign .portfolio-panel {
@@ -4950,6 +4961,10 @@ input, select, textarea {
 
 		body.portfolio-redesign .project-grid,
 		body.portfolio-redesign .ordered-grid {
+			grid-template-columns: 1fr;
+		}
+
+		body.portfolio-redesign .extension-grid {
 			grid-template-columns: 1fr;
 		}
 
