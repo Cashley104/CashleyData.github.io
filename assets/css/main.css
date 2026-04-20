@@ -4692,10 +4692,11 @@ input, select, textarea {
 
 	body.portfolio-redesign {
 		background:
-			radial-gradient(circle at top left, rgba(24, 191, 239, 0.18), transparent 30%),
-			radial-gradient(circle at top right, rgba(255, 255, 255, 0.1), transparent 26%),
-			linear-gradient(180deg, #151b24 0%, #0f141b 100%);
-		color: #f3f5f7;
+			linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02)),
+			url("../../images/overlay.png"),
+			linear-gradient(180deg, #1b232d 0%, #131a22 100%);
+		color: #f5f7fa;
+		font-family: "Merriweather", Georgia, serif;
 	}
 
 	body.portfolio-redesign:before,
@@ -4703,244 +4704,214 @@ input, select, textarea {
 		display: none;
 	}
 
-	body.portfolio-redesign .portfolio-page {
+	body.portfolio-redesign .portfolio-shell {
 		margin: 0 auto;
-		max-width: 96rem;
-		padding: 1.25rem 1.25rem 2.5rem 1.25rem;
+		max-width: 84rem;
+		padding: 2.5rem 1rem 4rem 1rem;
 	}
 
 	body.portfolio-redesign h1,
 	body.portfolio-redesign h2,
 	body.portfolio-redesign h3,
-	body.portfolio-redesign p,
-	body.portfolio-redesign a {
-		color: inherit;
+	body.portfolio-redesign h4 {
+		color: #ffffff;
 	}
 
-	body.portfolio-redesign .masthead {
-		background: linear-gradient(135deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.03));
-		border: 1px solid rgba(255, 255, 255, 0.12);
-		border-radius: 1.2rem;
-		box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
-		margin-bottom: 1.1rem;
-		padding: 1rem 1.15rem;
+	body.portfolio-redesign .portfolio-hero {
+		margin: 0 auto 2rem auto;
+		max-width: 46rem;
+		text-align: center;
 	}
 
-	body.portfolio-redesign .masthead-bar {
-		align-items: center;
-		display: flex;
-		justify-content: space-between;
-		gap: 1rem;
-		margin-bottom: 0.6rem;
-	}
-
-	body.portfolio-redesign .masthead-kicker {
+	body.portfolio-redesign .portfolio-eyebrow {
 		color: #86d8f1;
-		font-size: 0.62rem;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 0.68rem;
 		font-weight: 700;
 		letter-spacing: 0.18em;
-		margin: 0;
+		margin: 0 0 0.5rem 0;
 		text-transform: uppercase;
 	}
 
-	body.portfolio-redesign .masthead-email {
-		border: 1px solid rgba(255, 255, 255, 0.14);
-		border-radius: 999px;
-		color: #e7edf1;
-		font-size: 0.66rem;
+	body.portfolio-redesign .portfolio-hero h1 {
+		font-size: 2.6rem;
 		letter-spacing: 0.04em;
-		padding: 0.3rem 0.75rem;
-		text-decoration: none;
+		line-height: 1.05;
+		margin: 0 0 0.55rem 0;
+		text-transform: uppercase;
 	}
 
-	body.portfolio-redesign .masthead-copy h1 {
-		font-size: 1.55rem;
-		letter-spacing: 0.03em;
-		line-height: 1.05;
+	body.portfolio-redesign .portfolio-subtitle {
+		color: rgba(255, 255, 255, 0.78);
+		font-size: 0.98rem;
+		font-style: italic;
+		line-height: 1.5;
+		margin: 0;
+	}
+
+	body.portfolio-redesign .portfolio-content {
+		margin: 0 auto;
+		max-width: 78rem;
+	}
+
+	body.portfolio-redesign .portfolio-panel {
+		background: rgba(255, 255, 255, 0.97);
+		border-radius: 0.45rem;
+		box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+		color: #212931;
+		padding: 3rem 2.5rem 2.5rem 2.5rem;
+	}
+
+	body.portfolio-redesign .portfolio-panel-header {
+		margin: 0 auto 2rem auto;
+		max-width: 48rem;
+		text-align: center;
+	}
+
+	body.portfolio-redesign .portfolio-section-kicker {
+		color: #717981;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 0.72rem;
+		font-weight: 700;
+		letter-spacing: 0.18em;
+		margin: 0 0 0.45rem 0;
+		text-transform: uppercase;
+	}
+
+	body.portfolio-redesign .portfolio-panel-header h2 {
+		color: #212931;
+		font-size: 2.1rem;
+		letter-spacing: 0.06em;
+		line-height: 1.1;
 		margin: 0 0 0.4rem 0;
 		text-transform: uppercase;
 	}
 
-	body.portfolio-redesign .masthead-copy p {
-		color: #c4cdd3;
-		font-size: 0.78rem;
-		line-height: 1.5;
-		margin: 0;
-		max-width: 42rem;
-	}
-
-	body.portfolio-redesign .masthead-tags {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.45rem;
-		margin-top: 0.85rem;
-	}
-
-	body.portfolio-redesign .masthead-tags span {
-		background: rgba(24, 191, 239, 0.12);
-		border: 1px solid rgba(24, 191, 239, 0.2);
-		border-radius: 999px;
-		color: #9ce2f5;
-		font-size: 0.58rem;
-		font-weight: 700;
-		letter-spacing: 0.08em;
-		padding: 0.28rem 0.58rem;
-		text-transform: uppercase;
-	}
-
-	body.portfolio-redesign .portfolio-main {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-	}
-
-	body.portfolio-redesign .project-section {
-		background: rgba(10, 14, 20, 0.72);
-		border: 1px solid rgba(255, 255, 255, 0.09);
-		border-radius: 1rem;
-		padding: 0.95rem;
-	}
-
-	body.portfolio-redesign .section-heading {
-		align-items: end;
-		display: grid;
-		gap: 0.2rem 1rem;
-		grid-template-columns: minmax(0, 18rem) 1fr;
-		margin-bottom: 0.75rem;
-	}
-
-	body.portfolio-redesign .section-label {
-		color: #7ad5f0;
-		font-size: 0.56rem;
-		font-weight: 700;
-		grid-column: 1 / -1;
-		letter-spacing: 0.18em;
-		margin: 0;
-		text-transform: uppercase;
-	}
-
-	body.portfolio-redesign .section-heading h2 {
-		font-size: 1rem;
-		letter-spacing: 0.06em;
-		line-height: 1.15;
-		margin: 0;
-		text-transform: uppercase;
-	}
-
-	body.portfolio-redesign .section-copy {
-		color: #a5b0b7;
-		font-size: 0.66rem;
+	body.portfolio-redesign .portfolio-panel-header p:last-child {
+		color: #5c6670;
+		font-size: 0.88rem;
 		line-height: 1.45;
 		margin: 0;
-		text-align: right;
+	}
+
+	body.portfolio-redesign .project-order-block + .project-order-block {
+		margin-top: 2rem;
+	}
+
+	body.portfolio-redesign .project-group-title {
+		border-top: 2px solid #eeeeee;
+		color: #212931;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 0.9rem;
+		font-weight: 700;
+		letter-spacing: 0.14em;
+		margin: 0 0 1.15rem 0;
+		padding-top: 1rem;
+		text-align: center;
+		text-transform: uppercase;
 	}
 
 	body.portfolio-redesign .project-grid {
 		display: grid;
-		gap: 0.8rem;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 1.25rem;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 
-	body.portfolio-redesign .project-grid-wide {
+	body.portfolio-redesign .ordered-grid {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 
 	body.portfolio-redesign .project-card {
-		background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.025));
-		border: 1px solid rgba(255, 255, 255, 0.08);
-		border-radius: 0.95rem;
+		border: 1px solid #e7eaee;
+		border-radius: 0.3rem;
 		display: flex;
 		flex-direction: column;
 		overflow: hidden;
+		text-align: center;
 	}
 
-	body.portfolio-redesign .project-visual {
-		background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
-		padding: 0.65rem;
+	body.portfolio-redesign .project-image-wrap {
+		background: #f6f8fa;
+		padding: 0.9rem 0.9rem 0.8rem 0.9rem;
 	}
 
-	body.portfolio-redesign .project-card-icon .project-visual {
+	body.portfolio-redesign .project-card-icon .project-image-wrap {
 		align-items: center;
 		display: flex;
 		justify-content: center;
 	}
 
-	body.portfolio-redesign .project-visual img {
-		border-radius: 0.6rem;
+	body.portfolio-redesign .project-image-wrap img {
 		display: block;
-		height: 7rem;
+		height: 8rem;
 		object-fit: cover;
 		width: 100%;
 	}
 
-	body.portfolio-redesign .project-card-icon .project-visual img {
-		height: 4.4rem;
+	body.portfolio-redesign .project-card-icon .project-image-wrap img {
+		height: 5rem;
 		object-fit: contain;
 		width: auto;
 	}
 
-	body.portfolio-redesign .project-body {
+	body.portfolio-redesign .project-copy {
 		display: flex;
 		flex: 1 1 auto;
 		flex-direction: column;
-		gap: 0.35rem;
-		padding: 0.75rem 0.8rem 0.85rem 0.8rem;
+		padding: 1rem 0.95rem 1.1rem 0.95rem;
 	}
 
-	body.portfolio-redesign .project-type {
-		color: #7ad5f0;
-		font-size: 0.54rem;
-		font-weight: 700;
-		letter-spacing: 0.14em;
-		margin: 0;
-		text-transform: uppercase;
+	body.portfolio-redesign .project-copy h4 {
+		color: #212931;
+		font-size: 1rem;
+		letter-spacing: 0.03em;
+		line-height: 1.25;
+		margin: 0 0 0.55rem 0;
+		min-height: 2.5rem;
+		text-transform: none;
 	}
 
-	body.portfolio-redesign .project-body h3 {
-		font-size: 0.8rem;
-		line-height: 1.2;
-		margin: 0;
-		text-transform: uppercase;
+	body.portfolio-redesign .project-copy p {
+		color: #5c6670;
+		font-size: 0.74rem;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+		min-height: 3.4rem;
 	}
 
-	body.portfolio-redesign .project-body p:not(.project-type) {
-		color: #bcc5ca;
-		font-size: 0.66rem;
-		line-height: 1.42;
-		margin: 0;
-	}
-
-	body.portfolio-redesign .project-link {
-		align-self: flex-start;
-		background: #f3f5f7;
-		border-radius: 999px;
-		color: #111821;
-		font-size: 0.56rem;
+	body.portfolio-redesign .project-button {
+		align-self: center;
+		border: 2px solid #212931;
+		border-radius: 0;
+		color: #212931;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 0.72rem;
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		margin-top: auto;
-		padding: 0.38rem 0.68rem;
+		padding: 0.7rem 1.15rem;
 		text-decoration: none;
 		text-transform: uppercase;
 	}
 
-	body.portfolio-redesign .project-link:hover {
-		background: #7ad5f0;
-		color: #0d141b !important;
+	body.portfolio-redesign .project-button:hover {
+		background: #18bfef;
+		border-color: #18bfef;
+		color: #ffffff !important;
 	}
 
 	@media screen and (max-width: 980px) {
 
-		body.portfolio-redesign .section-heading {
-			grid-template-columns: 1fr;
+		body.portfolio-redesign .portfolio-shell {
+			padding: 2rem 0.75rem 3rem 0.75rem;
 		}
 
-		body.portfolio-redesign .section-copy {
-			text-align: left;
+		body.portfolio-redesign .portfolio-panel {
+			padding: 2rem 1.5rem;
 		}
 
 		body.portfolio-redesign .project-grid,
-		body.portfolio-redesign .project-grid-wide {
+		body.portfolio-redesign .ordered-grid {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 
@@ -4948,39 +4919,41 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		body.portfolio-redesign .portfolio-page {
-			padding: 0.75rem 0.75rem 1.5rem 0.75rem;
+		body.portfolio-redesign .portfolio-shell {
+			padding: 1.5rem 0.5rem 2.5rem 0.5rem;
 		}
 
-		body.portfolio-redesign .masthead {
-			padding: 0.85rem;
+		body.portfolio-redesign .portfolio-hero h1 {
+			font-size: 1.8rem;
 		}
 
-		body.portfolio-redesign .masthead-bar {
-			align-items: flex-start;
-			flex-direction: column;
-			gap: 0.45rem;
+		body.portfolio-redesign .portfolio-subtitle {
+			font-size: 0.84rem;
 		}
 
-		body.portfolio-redesign .masthead-copy h1 {
-			font-size: 1.12rem;
+		body.portfolio-redesign .portfolio-panel {
+			padding: 1.35rem 1rem;
 		}
 
-		body.portfolio-redesign .masthead-copy p {
-			font-size: 0.72rem;
+		body.portfolio-redesign .portfolio-panel-header h2 {
+			font-size: 1.45rem;
+		}
+
+		body.portfolio-redesign .portfolio-panel-header p:last-child {
+			font-size: 0.78rem;
 		}
 
 		body.portfolio-redesign .project-grid,
-		body.portfolio-redesign .project-grid-wide {
+		body.portfolio-redesign .ordered-grid {
 			grid-template-columns: 1fr;
 		}
 
-		body.portfolio-redesign .project-visual img {
-			height: 8rem;
+		body.portfolio-redesign .project-image-wrap img {
+			height: 10rem;
 		}
 
-		body.portfolio-redesign .project-card-icon .project-visual img {
-			height: 4.8rem;
+		body.portfolio-redesign .project-card-icon .project-image-wrap img {
+			height: 5.5rem;
 		}
 
 	}
