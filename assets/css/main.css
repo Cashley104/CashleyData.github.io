@@ -4815,6 +4815,7 @@ input, select, textarea {
 		display: grid;
 		gap: 1.25rem;
 		grid-template-columns: repeat(3, minmax(0, 1fr));
+		justify-content: center;
 	}
 
 	body.portfolio-redesign .ordered-grid {
@@ -4855,10 +4856,12 @@ input, select, textarea {
 	}
 
 	body.portfolio-redesign .project-copy {
+		align-items: center;
 		display: flex;
 		flex: 1 1 auto;
 		flex-direction: column;
 		padding: 1rem 0.95rem 1.1rem 0.95rem;
+		text-align: center;
 	}
 
 	body.portfolio-redesign .project-copy h4 {
@@ -4876,11 +4879,12 @@ input, select, textarea {
 		font-size: 0.74rem;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
+		max-width: 18rem;
 		min-height: 3.4rem;
+		text-align: center;
 	}
 
 	body.portfolio-redesign .project-button {
-		align-self: center;
 		border: 2px solid #212931;
 		border-radius: 0;
 		color: #212931;
@@ -4890,6 +4894,7 @@ input, select, textarea {
 		letter-spacing: 0.08em;
 		margin-top: auto;
 		padding: 0.7rem 1.15rem;
+		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
 	}
