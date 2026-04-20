@@ -4690,6 +4690,21 @@ input, select, textarea {
 
 /* Portfolio refresh */
 
+	#header {
+		height: 8rem;
+		padding-bottom: 1.5rem;
+	}
+
+	#header .logo {
+		border-width: 3px !important;
+		font-size: 1.25rem;
+		padding: 0.45rem 1rem;
+	}
+
+	#nav {
+		margin-top: 0;
+	}
+
 	#nav,
 	#main,
 	#footer,
@@ -4697,8 +4712,34 @@ input, select, textarea {
 		max-width: 92rem;
 	}
 
+	.site-summary {
+		padding: 1.2rem 2rem 0.6rem 2rem;
+		text-align: center;
+	}
+
+	.site-summary-kicker {
+		color: #717981;
+		font-size: 0.65rem;
+		font-weight: 700;
+		letter-spacing: 0.18em;
+		margin-bottom: 0.2rem;
+		text-transform: uppercase;
+	}
+
+	.site-summary h1 {
+		font-size: 1.3rem;
+		letter-spacing: 0.04em;
+		margin-bottom: 0.2rem;
+	}
+
+	.site-summary p:last-child {
+		font-size: 0.72rem;
+		line-height: 1.45;
+		margin-bottom: 0;
+	}
+
 	.project-hero {
-		padding: 2rem 2.5rem 0.75rem 2.5rem;
+		padding: 1.1rem 2rem 0.35rem 2rem;
 	}
 
 	.project-hero header.major {
@@ -4852,6 +4893,11 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
+		#header {
+			height: 6.5rem;
+			padding-bottom: 1rem;
+		}
+
 		#main > .project-bucket > .posts.compact-posts > * {
 			width: 50%;
 		}
@@ -4895,6 +4941,18 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 736px) {
+
+		.site-summary {
+			padding: 1rem 1.25rem 0.45rem 1.25rem;
+		}
+
+		.site-summary h1 {
+			font-size: 1.05rem;
+		}
+
+		.site-summary p:last-child {
+			font-size: 0.68rem;
+		}
 
 		#main > .project-bucket > .posts.compact-posts > * {
 			padding: 1.4rem 1.15rem;
