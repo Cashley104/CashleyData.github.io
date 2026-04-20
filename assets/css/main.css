@@ -4806,11 +4806,11 @@ input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 700;
-		letter-spacing: 0.14em;
+		letter-spacing: 0.04em;
 		margin: 0 0 1.15rem 0;
 		padding-top: 1rem;
 		text-align: center;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 
 	body.portfolio-redesign .project-grid {
