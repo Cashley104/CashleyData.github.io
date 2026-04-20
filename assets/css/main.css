@@ -4801,14 +4801,12 @@ input, select, textarea {
 	}
 
 	body.portfolio-redesign .project-group-title {
-		border-top: 2px solid #eeeeee;
 		color: #212931;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 700;
 		letter-spacing: 0.04em;
 		margin: 0 0 1.15rem 0;
-		padding-top: 1rem;
 		text-align: center;
 		text-transform: none;
 	}
