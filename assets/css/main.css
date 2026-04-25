@@ -4827,6 +4827,18 @@ input, select, textarea {
 		justify-content: center;
 	}
 
+	body.portfolio-redesign .basketball-grid {
+		grid-template-columns: repeat(6, minmax(0, 1fr));
+	}
+
+	body.portfolio-redesign .basketball-grid .project-card {
+		grid-column: span 2;
+	}
+
+	body.portfolio-redesign .basketball-grid .project-card:nth-last-child(2) {
+		grid-column: 2 / span 2;
+	}
+
 	body.portfolio-redesign .project-card {
 		border: 1px solid #e7eaee;
 		border-radius: 0.3rem;
@@ -4924,8 +4936,14 @@ input, select, textarea {
 		}
 
 		body.portfolio-redesign .project-grid,
-		body.portfolio-redesign .ordered-grid {
+		body.portfolio-redesign .ordered-grid,
+		body.portfolio-redesign .basketball-grid {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		body.portfolio-redesign .basketball-grid .project-card,
+		body.portfolio-redesign .basketball-grid .project-card:nth-last-child(2) {
+			grid-column: auto;
 		}
 
 		body.portfolio-redesign .extension-grid {
