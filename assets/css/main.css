@@ -4919,6 +4919,20 @@ input, select, textarea {
 		text-transform: uppercase;
 	}
 
+	body.portfolio-redesign .project-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.55rem;
+		justify-content: center;
+		margin-top: auto;
+	}
+
+	body.portfolio-redesign .project-actions .project-button {
+		margin-top: 0;
+		padding-left: 0.85rem;
+		padding-right: 0.85rem;
+	}
+
 	body.portfolio-redesign .project-button:hover {
 		background: #18bfef;
 		border-color: #18bfef;
