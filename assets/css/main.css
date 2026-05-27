@@ -4875,6 +4875,14 @@ input, select, textarea {
 		width: auto;
 	}
 
+	body.portfolio-redesign .trade-duty-card .project-image-wrap img {
+		object-position: center 62%;
+	}
+
+	body.portfolio-redesign .analytics-grid .tableau-projects-card {
+		grid-column: 2;
+	}
+
 	body.portfolio-redesign .project-copy {
 		align-items: center;
 		display: flex;
@@ -4956,7 +4964,8 @@ input, select, textarea {
 		}
 
 		body.portfolio-redesign .basketball-grid .project-card,
-		body.portfolio-redesign .basketball-grid .project-card:nth-last-child(2) {
+		body.portfolio-redesign .basketball-grid .project-card:nth-last-child(2),
+		body.portfolio-redesign .analytics-grid .tableau-projects-card {
 			grid-column: auto;
 		}
 
