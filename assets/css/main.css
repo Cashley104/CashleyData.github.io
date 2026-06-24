@@ -4915,28 +4915,6 @@ input, select, textarea {
 		opacity: 1;
 	}
 
-	body.portfolio-redesign .extension-gallery-hint {
-		background: rgba(33, 41, 49, 0.82);
-		border-radius: 0.2rem;
-		bottom: 0.55rem;
-		color: #ffffff;
-		font-size: 0.62rem;
-		font-weight: 700;
-		letter-spacing: 0.04em;
-		line-height: 1;
-		padding: 0.38rem 0.48rem;
-		pointer-events: none;
-		position: absolute;
-		right: 0.55rem;
-		text-transform: uppercase;
-		transition: opacity 0.2s ease;
-		z-index: 2;
-	}
-
-	body.portfolio-redesign .extension-gallery.is-previewing .extension-gallery-hint {
-		opacity: 0;
-	}
-
 	body.portfolio-redesign .trade-duty-card .project-image-wrap img {
 		object-position: center 62%;
 	}

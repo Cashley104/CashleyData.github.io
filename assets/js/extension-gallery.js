@@ -22,7 +22,6 @@
 			if (timer || reduceMotion.matches)
 				return;
 
-			gallery.classList.add('is-previewing');
 			showSlide(1);
 			timer = window.setInterval(function () {
 				showSlide(activeIndex === slides.length - 1 ? 1 : activeIndex + 1);
@@ -32,7 +31,6 @@
 		function stopPreview() {
 			window.clearInterval(timer);
 			timer = null;
-			gallery.classList.remove('is-previewing');
 			showSlide(0);
 		}
 
