@@ -4882,6 +4882,19 @@ input, select, textarea {
 		position: relative;
 	}
 
+	body.portfolio-redesign .project-card-icon .extension-video {
+		aspect-ratio: 8 / 5;
+		overflow: hidden;
+		padding: 0;
+	}
+
+	body.portfolio-redesign .project-card-icon .extension-video iframe {
+		border: 0;
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+
 	body.portfolio-redesign .project-card-icon .extension-gallery img {
 		height: 100%;
 		inset: 0;
