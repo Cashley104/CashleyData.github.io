@@ -4823,7 +4823,7 @@ input, select, textarea {
 	}
 
 	body.portfolio-redesign .extension-grid {
-		grid-template-columns: repeat(2, minmax(0, 20rem));
+		grid-template-columns: repeat(3, minmax(0, 1fr));
 		justify-content: center;
 	}
 
@@ -4873,6 +4873,55 @@ input, select, textarea {
 		height: 5rem;
 		object-fit: contain;
 		width: auto;
+	}
+
+	body.portfolio-redesign .project-card-icon .extension-gallery {
+		aspect-ratio: 8 / 5;
+		overflow: hidden;
+		padding: 0;
+		position: relative;
+	}
+
+	body.portfolio-redesign .project-card-icon .extension-gallery img {
+		height: 100%;
+		inset: 0;
+		object-fit: cover;
+		opacity: 0;
+		position: absolute;
+		transition: opacity 0.35s ease;
+		width: 100%;
+	}
+
+	body.portfolio-redesign .project-card-icon .extension-gallery .extension-gallery-icon {
+		box-sizing: border-box;
+		object-fit: contain;
+		padding: 2rem;
+	}
+
+	body.portfolio-redesign .project-card-icon .extension-gallery img.is-active {
+		opacity: 1;
+	}
+
+	body.portfolio-redesign .extension-gallery-hint {
+		background: rgba(33, 41, 49, 0.82);
+		border-radius: 0.2rem;
+		bottom: 0.55rem;
+		color: #ffffff;
+		font-size: 0.62rem;
+		font-weight: 700;
+		letter-spacing: 0.04em;
+		line-height: 1;
+		padding: 0.38rem 0.48rem;
+		pointer-events: none;
+		position: absolute;
+		right: 0.55rem;
+		text-transform: uppercase;
+		transition: opacity 0.2s ease;
+		z-index: 2;
+	}
+
+	body.portfolio-redesign .extension-gallery.is-previewing .extension-gallery-hint {
+		opacity: 0;
 	}
 
 	body.portfolio-redesign .trade-duty-card .project-image-wrap img {
@@ -4970,7 +5019,7 @@ input, select, textarea {
 		}
 
 		body.portfolio-redesign .extension-grid {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
+			grid-template-columns: repeat(3, minmax(0, 1fr));
 		}
 
 	}
@@ -5007,15 +5056,23 @@ input, select, textarea {
 		}
 
 		body.portfolio-redesign .extension-grid {
-			grid-template-columns: 1fr;
+			grid-template-columns: repeat(3, minmax(16rem, 82vw));
+			justify-content: start;
+			overflow-x: auto;
+			padding-bottom: 0.75rem;
+			scroll-snap-type: x proximity;
+		}
+
+		body.portfolio-redesign .extension-grid .project-card {
+			scroll-snap-align: start;
 		}
 
 		body.portfolio-redesign .project-image-wrap img {
 			height: 10rem;
 		}
 
-		body.portfolio-redesign .project-card-icon .project-image-wrap img {
-			height: 5.5rem;
+		body.portfolio-redesign .project-card-icon .extension-gallery img {
+			height: 100%;
 		}
 
 	}
