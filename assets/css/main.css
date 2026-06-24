@@ -4905,12 +4905,6 @@ input, select, textarea {
 		width: 100%;
 	}
 
-	body.portfolio-redesign .project-card-icon .extension-gallery .extension-gallery-icon {
-		box-sizing: border-box;
-		object-fit: contain;
-		padding: 2rem;
-	}
-
 	body.portfolio-redesign .project-card-icon .extension-gallery img.is-active {
 		opacity: 1;
 	}

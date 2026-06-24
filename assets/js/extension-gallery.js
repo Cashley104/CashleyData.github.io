@@ -24,7 +24,7 @@
 
 			showSlide(1);
 			timer = window.setInterval(function () {
-				showSlide(activeIndex === slides.length - 1 ? 1 : activeIndex + 1);
+				showSlide(activeIndex === slides.length - 1 ? 0 : activeIndex + 1);
 			}, 1800);
 		}
 
