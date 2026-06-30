@@ -4827,6 +4827,10 @@ input, select, textarea {
 		justify-content: center;
 	}
 
+	body.portfolio-redesign .extension-grid .audio-splitter-card {
+		grid-column: 2;
+	}
+
 	body.portfolio-redesign .basketball-grid {
 		grid-template-columns: repeat(6, minmax(0, 1fr));
 	}
@@ -5046,6 +5050,10 @@ input, select, textarea {
 			overflow-x: auto;
 			padding-bottom: 0.75rem;
 			scroll-snap-type: x proximity;
+		}
+
+		body.portfolio-redesign .extension-grid .audio-splitter-card {
+			grid-column: auto;
 		}
 
 		body.portfolio-redesign .extension-grid .project-card {
