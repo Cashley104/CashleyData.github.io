@@ -1,0 +1,30 @@
+header nav{align-items:center;flex-wrap:wrap;gap:12px 24px}header nav a[aria-current=page]{color:#8d4524;border-bottom:1px solid #8d4524;padding-bottom:5px}header nav a[href="https://github.com/Cashley104"]{display:inline}#contact{scroll-margin-top:25px}.closing h2{font-size:27px;line-height:1.25}.closing{gap:20px}.about-main{max-width:1180px;margin:auto;padding:0 7%}.about-intro{padding:48px 0 38px;max-width:700px}.about-intro h1{font-size:clamp(42px,5vw,65px);margin:17px 0 23px;letter-spacing:-2px}.about-intro>p:not(.eyebrow){font-size:15px;line-height:1.95;color:#586550;margin:0 0 15px}.back-projects{display:inline-block;border-bottom:1px solid #929f82;font-size:12px;padding-bottom:5px;margin-top:7px}.about-section{border-top:1px solid #c9d0c0;padding:27px 0;display:grid;grid-template-columns:190px minmax(0,1fr);gap:30px}.about-section>h2{font:500 24px 'Space Grotesk',sans-serif;letter-spacing:-.6px;margin:0;line-height:1.35}.role{display:grid;grid-template-columns:155px minmax(0,1fr);gap:25px;padding:0 0 24px}.role+.role{padding-top:22px;border-top:1px solid #d3d8cc}.role:last-child{padding-bottom:0}.role h3,.education h3{font-size:19px;margin:0 0 7px}.role-date{font-size:11px;margin:2px 0 8px;color:#4c5c42}.role-kind{font-size:10px;line-height:1.7;margin:0;color:#65705f}.role>div:last-child>p,.education p{font-size:13px;line-height:1.85;color:#586550;margin:0}.education .quiet{font-size:11px;margin-top:8px}.credential-list{list-style:none;padding:0;margin:0}.credential-list li{padding:0 0 18px}.credential-list a{font-size:13px;line-height:1.7;border-bottom:1px solid #c0c9b5}.credential-list span{display:block;font-size:10px;line-height:1.8;color:#65705f;margin-top:5px}details summary{font-size:11px;cursor:pointer;color:#586550;padding:6px 0}details[open] summary{margin-bottom:16px}.about-contact{border-top:1px solid #c9d0c0;padding:30px 0 45px}.about-contact h2{font:500 28px 'Space Grotesk',sans-serif;letter-spacing:-.7px;margin:0 0 12px}.about-contact p{font-size:13px;line-height:1.8;color:#586550}.about-contact a{font-size:12px;border-bottom:1px solid #929f82;padding-bottom:5px}summary:focus-visible{outline:2px solid #b85326;outline-offset:4px}@media(max-width:900px){.about-section{grid-template-columns:150px minmax(0,1fr);gap:20px}.role{grid-template-columns:1fr;gap:8px}.role-date{margin:0 0 4px}.about-main{padding-inline:5%}}@media(max-width:600px){header{align-items:start;gap:20px}header nav{justify-content:flex-end;gap:10px 16px;font-size:10px;max-width:270px}header nav a[href="./#work"]{display:inline}.about-intro{padding:32px 0}.about-intro>p:not(.eyebrow){font-size:13px}.about-section{grid-template-columns:1fr;gap:22px}.about-section>h2{font-size:23px}.role{padding-bottom:20px}.closing h2{font-size:25px}.role-kind{font-size:11px}.credential-list a{overflow-wrap:anywhere}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* Readability pass: shared by the gallery, About page and project detail. */
+body header nav{font-size:14px;gap:12px 24px}
+body .brand span{font-size:10px;letter-spacing:1px}
+body .eyebrow{font-size:11px;letter-spacing:1.2px}
+body .intro-grid>div>p{font-size:16px;line-height:1.8}
+body .location{font-size:13px}
+body .filters button{font-size:14px;padding:10px 14px}
+body .filters span{font-size:11px}
+body .gallery-toolbar>p{font-size:12px}
+body .collection-heading span{font-size:11px;letter-spacing:1.2px}
+body .gallery-section .project-copy>p{font-size:15px;line-height:1.8}
+body .gallery-section .project-button{font-size:13px;padding-bottom:5px}
+body .gallery-section h3{font-size:24px;line-height:1.3}
+body .build-note{font-size:12px;line-height:1.8}
+body .closing>a{font-size:15px}
+body footer{font-size:10px;line-height:1.7}
+body .about-intro>p:not(.eyebrow){font-size:16px;line-height:1.9}
+body .back-projects{font-size:14px}
+body .role-date{font-size:13px}
+body .role-kind{font-size:13px;line-height:1.7}
+body .role>div:last-child>p,body .education p{font-size:15px;line-height:1.85}
+body .education .quiet{font-size:13px}
+body .credential-list a{font-size:15px;line-height:1.8}
+body .credential-list span{font-size:12px}
+body details summary{font-size:14px;padding-block:10px}
+body .about-contact p{font-size:15px}
+body .about-contact a{font-size:14px}
+body .role h3,body .education h3{font-size:21px}
+@media(max-width:600px){body header nav{font-size:12px;gap:10px 16px}body .intro-grid>div>p{font-size:15px}body .gallery-section h3{font-size:22px}body .filters button{font-size:13px;padding:9px 11px}body .gallery-toolbar{gap:12px}body .collection-heading span{font-size:10px}body .about-intro>p:not(.eyebrow){font-size:15px}body .role-date{font-size:12px}body footer{font-size:9px}}
