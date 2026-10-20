@@ -11,3 +11,5 @@
 @media(hover:none){#project-gallery .preview-badge{display:none}}
 #project-gallery .project-card .hover-media img.hover-slide[src$="streaks-tableau-clean.png"]{object-fit:contain;object-position:center;background:#fff}
 body #project-gallery .preview-badge{font-size:10px;letter-spacing:.6px;padding:7px 9px}
+
+#bike-sales-excel .project-image-wrap img{object-fit:contain;background:#fff}
