@@ -11,6 +11,8 @@
     const matching=cards.filter(c=>category==='all'||c.dataset.category===category);
     cards.forEach(c=>{c.hidden=!matching.includes(c);});
     headings.forEach(({key,h})=>{h.hidden=!cards.some(c=>!c.hidden&&c.dataset.category===key);});
+    // Center the leftover card when a section has an odd number of visible projects.
+    groups.forEach(([key])=>{const shown=cards.filter(c=>!c.hidden&&c.dataset.category===key);cards.filter(c=>c.dataset.category===key).forEach(c=>c.classList.remove('is-solo'));if(shown.length%2)shown[shown.length-1].classList.add('is-solo');});
     filters.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filter===category)));
     more.hidden=true;status.textContent=`${matching.length} projects`;document.dispatchEvent(new Event('gallery-filter'));
   }
