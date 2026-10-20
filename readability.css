@@ -15,3 +15,4 @@ body .signature-footer nav{display:flex;flex-wrap:wrap;gap:22px;font-size:12px;l
 body footer.signature-footer:has(nav){justify-content:space-between;gap:18px}
 body .closing:has(.contact-links){flex-wrap:wrap}
 @media(max-width:600px){body .closing .contact-links{justify-content:flex-start;gap:14px 20px}body .signature-footer nav{gap:18px}body .contact-email{flex-basis:100%;order:4}}
+header nav{align-items:baseline}
