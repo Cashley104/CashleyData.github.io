@@ -12,5 +12,7 @@
 #project-gallery .project-card .hover-media img.hover-slide[src$="streaks-tableau-clean.png"]{object-fit:contain;object-position:center;background:#fff}
 body #project-gallery .preview-badge{font-size:10px;letter-spacing:.6px;padding:7px 9px}
 
-#project-gallery #bike-sales-excel .project-image-wrap img.hover-cover{object-fit:cover;object-position:center 55%}
-#project-gallery #bike-sales-excel .project-image-wrap img.hover-slide{object-fit:contain;object-position:center 55%;padding:24px 10px 12px;background:#fff}
+#project-gallery #bike-sales-excel .project-image-wrap img.hover-cover{object-fit:cover;object-position:center}
+#project-gallery #bike-sales-excel .project-image-wrap img.hover-slide{object-fit:contain;object-position:center;padding:10px 12px;background:#fff}
+#project-gallery #walmart-store-performance .project-image-wrap img.hover-cover{object-fit:cover;object-position:center}
+#project-gallery #walmart-store-performance .project-image-wrap img.hover-slide{object-fit:contain;object-position:center;padding:8px;background:#fff}

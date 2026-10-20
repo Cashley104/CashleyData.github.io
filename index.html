@@ -1,9 +1,9 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Connor Ashley's analytics, basketball dashboards, browser extensions and automation projects."><title>Connor Ashley | Portfolio</title><link rel="stylesheet" href="home.css"><link rel="stylesheet" href="compact.css"><script src="gallery.js" defer></script><link rel="stylesheet" href="editorial.css"><link rel="stylesheet" href="polish.css"><link rel="stylesheet" href="pages.css"><link rel="stylesheet" href="media.css"><link rel="stylesheet" href="hover.css?v=bike-preview-20261020"><script src="hover.js" defer></script><link rel="stylesheet" href="readability.css"><link rel="icon" type="image/svg+xml" href="favicon.svg"></head><body>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Connor Ashley's analytics, basketball dashboards, browser extensions and automation projects."><title>Connor Ashley | Portfolio</title><link rel="stylesheet" href="home.css"><link rel="stylesheet" href="compact.css"><script src="gallery.js" defer></script><link rel="stylesheet" href="editorial.css"><link rel="stylesheet" href="polish.css"><link rel="stylesheet" href="pages.css"><link rel="stylesheet" href="media.css"><link rel="stylesheet" href="hover.css?v=balanced-project-covers-20261020"><script src="hover.js" defer></script><link rel="stylesheet" href="readability.css"><link rel="icon" type="image/svg+xml" href="favicon.svg"></head><body>
 <header><a class="brand" href="./"><b>ca.</b><span>CONNOR ASHLEY<br>DATA / SYSTEMS / PRODUCTS</span></a><nav aria-label="Main navigation"><a href="./#work">Projects</a><a href="about.html">About & Experience</a><a href="https://github.com/Cashley104">GitHub ↗</a><a href="#contact">Contact</a></nav></header>
 <main><section class="intro"><p class="eyebrow">ANALYSIS MEETS MAKING THINGS</p><div class="intro-grid"><h1>I make messy work<br><em>make sense.</em></h1><div><p>I’m Connor. I turn scattered data and repetitive work into clear reporting, practical systems, and tools people use.</p><span class="location">New York · Boston · Remote</span></div></div></section>
 <section class="gallery-section" id="work"><div class="gallery-toolbar"><div class="filters" role="group" aria-label="Filter projects"><button type="button" data-filter="all" aria-pressed="true">All <span>14</span></button><button type="button" data-filter="data" aria-pressed="false">Data & BI <span>5</span></button><button type="button" data-filter="tools" aria-pressed="false">Extensions <span>4</span></button><button type="button" data-filter="basketball" aria-pressed="false">Basketball <span>5</span></button></div><p id="gallery-status" role="status">14 projects</p></div><div class="project-grid" id="project-gallery"><article data-category="data" class="project-card walmart-performance-card" id="walmart-store-performance">
 								<a class="project-image-wrap hover-media" data-hover-preview href="walmart.html">
-									<img class="hover-cover" loading="lazy" src="https://cashley104.github.io/CashleyData.github.io/images/walmart-store-performance.png" alt="Walmart Store Performance Power BI dashboard preview" /><span class="hover-content"><img class="hover-slide is-preview-active" loading="lazy" src="https://raw.githubusercontent.com/Cashley104/Walmart-Retail-Performance/main/images/executive-summary.png" alt="Walmart dashboard page 1 of 4" aria-hidden="false"><img class="hover-slide" loading="lazy" src="https://raw.githubusercontent.com/Cashley104/Walmart-Retail-Performance/main/images/store-department-performance.png" alt="Walmart dashboard page 2 of 4" aria-hidden="true"><img class="hover-slide" loading="lazy" src="https://raw.githubusercontent.com/Cashley104/Walmart-Retail-Performance/main/images/forecast-holiday-impact.png" alt="Walmart dashboard page 3 of 4" aria-hidden="true"><img class="hover-slide" loading="lazy" src="https://raw.githubusercontent.com/Cashley104/Walmart-Retail-Performance/main/images/methodology-data-quality.png" alt="Walmart dashboard page 4 of 4" aria-hidden="true"></span><span class="hover-hint">HOVER / 4 DASHBOARD PAGES</span>
+									<img class="hover-cover" loading="lazy" src="assets/walmart-storefront-cover.png" alt="Walmart storefront" /><span class="hover-content"><img class="hover-slide is-preview-active" loading="lazy" src="https://raw.githubusercontent.com/Cashley104/Walmart-Retail-Performance/main/images/executive-summary.png" alt="Walmart dashboard page 1 of 4" aria-hidden="false"><img class="hover-slide" loading="lazy" src="https://raw.githubusercontent.com/Cashley104/Walmart-Retail-Performance/main/images/store-department-performance.png" alt="Walmart dashboard page 2 of 4" aria-hidden="true"><img class="hover-slide" loading="lazy" src="https://raw.githubusercontent.com/Cashley104/Walmart-Retail-Performance/main/images/forecast-holiday-impact.png" alt="Walmart dashboard page 3 of 4" aria-hidden="true"><img class="hover-slide" loading="lazy" src="https://raw.githubusercontent.com/Cashley104/Walmart-Retail-Performance/main/images/methodology-data-quality.png" alt="Walmart dashboard page 4 of 4" aria-hidden="true"></span><span class="hover-hint">HOVER / 4 DASHBOARD PAGES</span>
 								</a>
 								<div class="project-copy">
 									<h3>Walmart Store Performance</h3>
@@ -28,6 +28,38 @@
 									</div>
 								</div>
 							</article>
+<article data-category="data" class="project-card" id="nashville-housing">
+								<a class="project-image-wrap hover-media" data-hover-preview href="https://github.com/Cashley104/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20Cleaning%20Scripts.sql">
+									<img class="hover-cover" loading="lazy" src="https://cashley104.github.io/CashleyData.github.io/images/houses3.jfif" alt="Housing data SQL project preview" /><span class="hover-content"><div class="hover-slide is-preview-active sql-preview"><span>SQL SERVER / ACTUAL PROJECT EXCERPT</span><pre><code>Update NashvilleHousing
+SET SoldAsVacant = CASE
+  When SoldAsVacant = 'Y' THEN 'YES'
+  When SoldAsVacant = 'N' THEN 'NO'
+  Else SoldAsVacant
+  END</code></pre><small>Standardizing inconsistent categories</small></div></span><span class="hover-hint">HOVER / VIEW SQL</span>
+								</a>
+								<div class="project-copy">
+									<h3>Nashville Housing Data Cleaning</h3>
+									<p>Cleaned housing records in SQL: dates, addresses, missing values, categories and duplicates.</p>
+									<a class="project-button" href="https://github.com/Cashley104/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20Cleaning%20Scripts.sql">View Code</a>
+								</div>
+							</article>
+<article data-category="data" class="project-card" id="bike-sales-excel">
+<a class="project-image-wrap hover-media" data-hover-preview href="projects/bike-sales-full-dashboard.pdf"><img class="hover-cover" loading="lazy" src="assets/bike-shop-cover.png" alt="Bicycles displayed inside a bike shop"><span class="hover-content"><img class="hover-slide is-preview-active" loading="lazy" src="assets/bike-sales-dashboard-balanced.png" alt="Complete Excel bike-sales dashboard with three PivotCharts and slicers for region, education and marital status"></span><span class="hover-hint">HOVER / VIEW EXCEL DASHBOARD</span></a>
+<div class="project-copy"><h3>Bike Sales Excel Dashboard</h3><p>Explored purchase patterns with three PivotTables, PivotCharts and slicers for customer groups. An Excel practice project with a downloadable workbook.</p><div class="project-actions"><a class="project-button" href="projects/bike-sales-full-dashboard.pdf">Dashboard Preview</a><a class="project-button" href="https://github.com/Cashley104/PortfolioProjects/blob/main/Excel%20Project%20Dataset.xlsx">View Workbook</a></div></div>
+</article>
+<article data-category="data" class="project-card">
+								<a class="project-image-wrap hover-media" data-hover-preview href="https://github.com/Cashley104/PortfolioProjects/blob/main/Covid%20Portfolio%20Project%20Scripts.sql">
+									<img class="hover-cover" loading="lazy" src="https://cashley104.github.io/CashleyData.github.io/images/covid-cells.jpg" alt="COVID SQL project preview" /><span class="hover-content"><img class="hover-slide is-preview-active" loading="lazy" src="assets/covid-tableau.png" alt="Actual COVID-19 Tableau dashboard preview"></span><span class="hover-hint">HOVER / VIEW DASHBOARD</span>
+								</a>
+								<div class="project-copy">
+									<h3>COVID-19 Data Exploration</h3>
+									<p>Explored global cases, deaths and vaccinations in SQL, with a Tableau dashboard.</p>
+									<div class="project-actions">
+										<a class="project-button" href="https://github.com/Cashley104/PortfolioProjects/blob/main/Covid%20Portfolio%20Project%20Scripts.sql">View Code</a>
+										<a class="project-button" href="https://public.tableau.com/app/profile/connor.ashley/viz/CovidDashboard_16518764478820/Dashboard1">View Tableau</a>
+									</div>
+								</div>
+							</article>
 <article data-category="tools" class="project-card project-card-icon" id="left-right-audio-splitter">
 								<a class="project-image-wrap extension-gallery" data-extension-gallery href="https://chromewebstore.google.com/detail/left-right-audio-splitter/magdlljkgnbhgonbojmoonhclhifmalc?hl=en" aria-label="View Left Right Audio Splitter in the Chrome Web Store">
 									<img loading="lazy" class="is-active" src="https://cashley104.github.io/CashleyData.github.io/images/extensions/audio-splitter/02.jpg" alt="Left Right Audio Splitter extension preview" />
@@ -47,26 +79,6 @@
 									<h3>Application Workflow Automation</h3>
 									<p>Built a browser tool that fills multi-step applications, checks answers, resumes interrupted work and flags uncertain steps for review.</p>
 									<a class="project-button" href="https://www.youtube.com/watch?v=V3ThKIon_p4">View Workday Example</a>
-								</div>
-							</article>
-<article data-category="basketball" class="project-card" id="ato-coaches-dashboard">
-								<a class="project-image-wrap hover-media" data-hover-preview href="https://cashley104.github.io/ATO-Coaches-Dashboard/">
-									<img class="hover-cover" loading="lazy" src="https://cashley104.github.io/CashleyData.github.io/images/spoelstra-photo.png" alt="ATO Coaches Dashboard project preview" /><span class="hover-content"><img class="hover-slide is-preview-active" loading="lazy" src="assets/ato-dashboard.png" alt="ATO Coaches Dashboard actual dashboard preview"></span>
-								</a>
-								<div class="project-copy">
-									<h3>ATO Coaches Dashboard</h3>
-									<p>Ranked NBA coaches by after-timeout shooting lift using play-by-play data.</p>
-									<a class="project-button" href="https://cashley104.github.io/ATO-Coaches-Dashboard/">View Dashboard</a>
-								</div>
-							</article>
-<article data-category="basketball" class="project-card" id="gravity-in-the-nba">
-								<a class="project-image-wrap hover-media" data-hover-preview href="https://cashley104.github.io/gravity-dashboard/">
-									<img class="hover-cover" loading="lazy" src="https://cashley104.github.io/CashleyData.github.io/images/gravity-dashboard.png" alt="Gravity NBA Dashboard project preview" /><span class="hover-content"><img class="hover-slide is-preview-active" loading="lazy" src="assets/gravity-dashboard.png" alt="Gravity in the NBA actual dashboard preview"></span>
-								</a>
-								<div class="project-copy">
-									<h3>Gravity in the NBA</h3>
-									<p>Explored how teammate shooting changes when a player is on or off the court, with adjustments for lineup differences.</p>
-									<a class="project-button" href="https://cashley104.github.io/gravity-dashboard/">View Dashboard</a>
 								</div>
 							</article>
 <article data-category="tools" class="project-card project-card-icon" id="job-checkmark">
@@ -93,36 +105,24 @@
 									<a class="project-button" href="https://chromewebstore.google.com/detail/steam-game-finder/bbeopfkajghfklodhkkmmokgjkjamkel?hl=en">View Extension</a>
 								</div>
 							</article>
-<article data-category="data" class="project-card" id="bike-sales-excel">
-<a class="project-image-wrap hover-media" data-hover-preview href="projects/bike-sales-full-dashboard.pdf"><img class="hover-cover" loading="lazy" src="assets/bike-sales-cover.jpg" alt="City bicycle parked outside a cafe" title="Photo by Phillip Flores on Unsplash"><span class="hover-content"><img class="hover-slide is-preview-active" loading="lazy" src="assets/bike-sales-dashboard-preview.png" alt="Complete Excel bike-sales dashboard with three PivotCharts and slicers for region, education and marital status"></span><span class="hover-hint">HOVER / VIEW EXCEL DASHBOARD</span></a>
-<div class="project-copy"><h3>Bike Sales Excel Dashboard</h3><p>Explored purchase patterns with three PivotTables, PivotCharts and slicers for customer groups. An Excel practice project with a downloadable workbook.</p><div class="project-actions"><a class="project-button" href="projects/bike-sales-full-dashboard.pdf">Dashboard Preview</a><a class="project-button" href="https://github.com/Cashley104/PortfolioProjects/blob/main/Excel%20Project%20Dataset.xlsx">View Workbook</a></div></div>
-</article>
-<article data-category="data" class="project-card" id="nashville-housing">
-								<a class="project-image-wrap hover-media" data-hover-preview href="https://github.com/Cashley104/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20Cleaning%20Scripts.sql">
-									<img class="hover-cover" loading="lazy" src="https://cashley104.github.io/CashleyData.github.io/images/houses3.jfif" alt="Housing data SQL project preview" /><span class="hover-content"><div class="hover-slide is-preview-active sql-preview"><span>SQL SERVER / ACTUAL PROJECT EXCERPT</span><pre><code>Update NashvilleHousing
-SET SoldAsVacant = CASE
-  When SoldAsVacant = 'Y' THEN 'YES'
-  When SoldAsVacant = 'N' THEN 'NO'
-  Else SoldAsVacant
-  END</code></pre><small>Standardizing inconsistent categories</small></div></span><span class="hover-hint">HOVER / VIEW SQL</span>
+<article data-category="basketball" class="project-card" id="gravity-in-the-nba">
+								<a class="project-image-wrap hover-media" data-hover-preview href="https://cashley104.github.io/gravity-dashboard/">
+									<img class="hover-cover" loading="lazy" src="https://cashley104.github.io/CashleyData.github.io/images/gravity-dashboard.png" alt="Gravity NBA Dashboard project preview" /><span class="hover-content"><img class="hover-slide is-preview-active" loading="lazy" src="assets/gravity-dashboard.png" alt="Gravity in the NBA actual dashboard preview"></span>
 								</a>
 								<div class="project-copy">
-									<h3>Nashville Housing Data Cleaning</h3>
-									<p>Cleaned housing records in SQL: dates, addresses, missing values, categories and duplicates.</p>
-									<a class="project-button" href="https://github.com/Cashley104/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20Cleaning%20Scripts.sql">View Code</a>
+									<h3>Gravity in the NBA</h3>
+									<p>Explored how teammate shooting changes when a player is on or off the court, with adjustments for lineup differences.</p>
+									<a class="project-button" href="https://cashley104.github.io/gravity-dashboard/">View Dashboard</a>
 								</div>
 							</article>
-<article data-category="data" class="project-card">
-								<a class="project-image-wrap hover-media" data-hover-preview href="https://github.com/Cashley104/PortfolioProjects/blob/main/Covid%20Portfolio%20Project%20Scripts.sql">
-									<img class="hover-cover" loading="lazy" src="https://cashley104.github.io/CashleyData.github.io/images/covid-cells.jpg" alt="COVID SQL project preview" /><span class="hover-content"><img class="hover-slide is-preview-active" loading="lazy" src="assets/covid-tableau.png" alt="Actual COVID-19 Tableau dashboard preview"></span><span class="hover-hint">HOVER / VIEW DASHBOARD</span>
+<article data-category="basketball" class="project-card" id="ato-coaches-dashboard">
+								<a class="project-image-wrap hover-media" data-hover-preview href="https://cashley104.github.io/ATO-Coaches-Dashboard/">
+									<img class="hover-cover" loading="lazy" src="https://cashley104.github.io/CashleyData.github.io/images/spoelstra-photo.png" alt="ATO Coaches Dashboard project preview" /><span class="hover-content"><img class="hover-slide is-preview-active" loading="lazy" src="assets/ato-dashboard.png" alt="ATO Coaches Dashboard actual dashboard preview"></span>
 								</a>
 								<div class="project-copy">
-									<h3>COVID-19 Data Exploration</h3>
-									<p>Explored global cases, deaths and vaccinations in SQL, with a Tableau dashboard.</p>
-									<div class="project-actions">
-										<a class="project-button" href="https://github.com/Cashley104/PortfolioProjects/blob/main/Covid%20Portfolio%20Project%20Scripts.sql">View Code</a>
-										<a class="project-button" href="https://public.tableau.com/app/profile/connor.ashley/viz/CovidDashboard_16518764478820/Dashboard1">View Tableau</a>
-									</div>
+									<h3>ATO Coaches Dashboard</h3>
+									<p>Ranked NBA coaches by after-timeout shooting lift using play-by-play data.</p>
+									<a class="project-button" href="https://cashley104.github.io/ATO-Coaches-Dashboard/">View Dashboard</a>
 								</div>
 							</article>
 <article data-category="basketball" class="project-card">
