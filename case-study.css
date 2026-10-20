@@ -1,0 +1,44 @@
+/* Project detail uses the same base typography and colors as the gallery. */
+.case-section { max-width: 1280px; margin: 0 auto; padding: 36px 5% 56px; }
+.case-heading { display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 24px; align-items: start; border-top: 1px solid var(--line); padding-top: 24px; }
+.case-heading h2 { margin: 0; font: 500 clamp(32px, 4vw, 54px)/1.1 'Space Grotesk', sans-serif; letter-spacing: -1.5px; }
+.case-lead { color: var(--muted); line-height: 1.7; }
+.project-type { font-size: 11px; line-height: 1.8; text-align: right; color: var(--muted); }
+.original-description { max-width: 900px; font-size: 17px; line-height: 1.85; margin: 30px 0; }
+.case-actions { display: flex; flex-wrap: wrap; gap: 16px 28px; align-items: center; margin: 24px 0 32px; }
+.case-actions a, .case-end a, .text-link { font-size: 14px; border-bottom: 1px solid var(--sage); padding-bottom: 6px; }
+a.solid { display: inline-block; background: var(--ink); color: var(--paper); padding: 13px 20px; border: 0; }
+.metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; padding: 25px 0; border-block: 1px solid var(--line); }
+.metrics strong { display: block; font: 500 clamp(27px, 3vw, 40px) 'Space Grotesk', sans-serif; margin-bottom: 8px; }
+.metrics span, .disclosure { font-size: 13px; line-height: 1.7; color: var(--muted); }
+.disclosure { margin: 18px 0 30px; }
+.case-section figure { margin: 0; min-width: 0; }
+.case-section img { display: block; width: 100%; height: auto; }
+.case-section figcaption { font-size: 12px; color: var(--muted); line-height: 1.8; margin: 12px 0 28px; }
+.case-section figcaption span { display: block; color: var(--ink); font-size: 11px; letter-spacing: .8px; }
+.report-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+.findings { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; padding: 30px 0; border-top: 1px solid var(--line); }
+.findings h3 { font: 500 28px/1.25 'Space Grotesk', sans-serif; margin: 12px 0; }
+.findings ul { margin: 0; padding-left: 20px; }
+.findings li { font-size: 15px; line-height: 1.8; margin-bottom: 18px; }
+.case-end { display: flex; justify-content: space-between; align-items: center; gap: 24px; border-top: 1px solid var(--line); padding-top: 26px; }
+.case-end p { font-size: 15px; line-height: 1.8; }
+.case-end p span { color: var(--muted); }
+.case-end a { flex-shrink: 0; }
+@media (max-width: 800px) {
+  .case-heading { grid-template-columns: 1fr; gap: 12px; }
+  .project-type { text-align: left; }
+  .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .report-pair, .story-grid, .workflow, .findings { grid-template-columns: 1fr; gap: 18px; }
+  .case-end { flex-direction: column; align-items: flex-start; }
+}
+@media (max-width: 420px) { .metrics { gap: 18px; } .metrics strong { font-size: 26px; } }
+
+.story-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; margin: 34px 0; }
+.story-grid h3 { font: 500 28px/1.25 'Space Grotesk', sans-serif; margin-top: 12px; }
+.story-grid p { font-size: 15px; line-height: 1.8; }
+.workflow { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; border-block: 1px solid var(--line); padding: 28px 0; }
+.workflow span { font-size: 11px; letter-spacing: .8px; color: var(--muted); }
+.workflow h4 { font-size: 19px; margin: 14px 0; }
+.workflow p { font-size: 14px; line-height: 1.8; }
+@media (max-width: 800px) { .story-grid, .workflow { grid-template-columns: 1fr; gap: 18px; } }
