@@ -17,3 +17,4 @@ body .closing:has(.contact-links){flex-wrap:wrap}
 @media(max-width:600px){body .closing .contact-links{justify-content:flex-start;gap:14px 20px}body .signature-footer nav{gap:18px}body .contact-email{flex-basis:100%;order:4}}
 header nav{align-items:baseline}
 @media(min-width:601px){.intro{padding-top:10px}}
+@media(min-width:601px){.brand b{position:relative;top:-.1em}}
