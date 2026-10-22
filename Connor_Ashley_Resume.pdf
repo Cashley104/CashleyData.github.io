@@ -1,136 +1,750 @@
-%PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%PDF-1.3
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R
+/PageMode /UseNone
+/Pages 2 0 R
+/Type /Catalog
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Count 1
+/Kids [ 3 0 R ]
+/Type /Pages
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Times-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R ]
+/Contents 11 0 R
+/MediaBox [ 0 0 612 792 ]
+/Parent 2 0 R
+/Resources <<
+/Font 12 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
 >>
 endobj
 4 0 obj
 <<
-/BaseFont /Times-Roman /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+/A <<
+/S /URI
+/Type /Action
+/URI (mailto\072cashleydata\100gmail\056com)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 229.5148 684.8 334.76 697.64 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 5 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (mailto:cashleydata@gmail.com)
->> /Border [ 0 0 0 ] /Rect [ 229.5148 684.8 334.76 697.64 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056linkedin\056com\057in\057cashleydata\057)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 342.25 684.8 462.6143 697.64 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 6 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://www.linkedin.com/in/cashleydata/)
->> /Border [ 0 0 0 ] /Rect [ 342.25 684.8 462.6143 697.64 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057cashley104\056github\056io\057CashleyData\056github\056io\057)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 73.68 672.7 261.5185 685.54 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 7 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://cashley104.github.io/CashleyData.github.io/)
->> /Border [ 0 0 0 ] /Rect [ 73.68 672.7 261.5185 685.54 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057cashley104\056github\056io\057CashleyData\056github\056io\057\043walmart\055store\055performance)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 87.01 261.38 215.9099 274.04 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 8 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://cashley104.github.io/CashleyData.github.io/#walmart-store-performance)
->> /Border [ 0 0 0 ] /Rect [ 87.01 261.38 215.9099 274.04 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057cashley104\056github\056io\057CashleyData\056github\056io\057\043us\055import\055duty\055exposure)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 87.01 224.58 210.9725 237.24 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 9 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://cashley104.github.io/CashleyData.github.io/#us-import-duty-exposure)
->> /Border [ 0 0 0 ] /Rect [ 87.01 224.58 210.9725 237.24 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057cashley104\056github\056io\057CashleyData\056github\056io\057\043gravity\055in\055the\055nba)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 87.01 187.78 175.2185 200.44 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 10 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://cashley104.github.io/CashleyData.github.io/#gravity-in-the-nba)
->> /Border [ 0 0 0 ] /Rect [ 87.01 187.78 175.2185 200.44 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057cashley104\056github\056io\057CashleyData\056github\056io\057\043left\055right\055audio\055splitter)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 87.01 150.98 200.4225 163.64 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 11 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (https://cashley104.github.io/CashleyData.github.io/#left-right-audio-splitter)
->> /Border [ 0 0 0 ] /Rect [ 87.01 150.98 200.4225 163.64 ] /Subtype /Link /Type /Annot
+/Length 8393
 >>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+1 0 0 1 73.68 700.64 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 20 Tf
+22 TL
+(Connor Ashley) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 673.44 cm
+q
+BT
+1 0 0 1 0 13.5 Tm
+12.1 TL
+/F3 10.7 Tf
+0 0 0 rg
+(New Canaan\054 CT \174 \050203\051 505\0554137 \174 ) Tj
+(cashleydata\100gmail\056com) Tj
+( \174 ) Tj
+(linkedin\056com\057in\057cashleydata) Tj
+( \174) Tj
+T*
+(cashley104\056github\056io\057CashleyData\056github\056io) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 650.04 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1 Tm
+/F2 13.4 Tf
+14.4 TL
+(Profile) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 648.49 cm
+q
+0.55 w
+1 J
+0 0 0 RG
+n
+0 0 m
+464.64 0 l
+S
+Q
+Q
+q
+1 0 0 1 73.68 610.34 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 25.6 Tm
+/F3 10.55 Tf
+12.05 TL
+(Data analyst with an economics background and experience cleaning\054 transforming\054 and validating nonprofit) Tj
+T*
+(and property data\056 Builds Tableau reporting and independent SQL\054 Python\054 and Power BI projects covering) Tj
+T*
+(data modeling\054 forecasting\054 and reconciliation\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 592.44 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1 Tm
+/F2 13.4 Tf
+14.4 TL
+(Skills) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 590.89 cm
+q
+0.55 w
+1 J
+0 0 0 RG
+n
+0 0 m
+464.64 0 l
+S
+Q
+Q
+q
+1 0 0 1 73.68 553.24 cm
+q
+BT
+1 0 0 1 17 25.6 Tm
+-10 0 Td
+12.05 TL
+/F3 10.55 Tf
+0 0 0 rg
+<7f20> Tj
+/F2 10.55 Tf
+(Tools \046 Technologies\072) Tj
+/F3 10.55 Tf
+( SQL Server \050joins\054 CTEs\054 window functions\051\054 Excel \050PivotTables\054 SUMIFS\054) Tj
+T*
+10 0 Td
+(INDEX\057MATCH\051\054 Power BI \050DAX\051\054 Tableau\054 Python \050Pandas\054 Selenium\054 BeautifulSoup\051\054 AI tools) Tj
+T*
+(\050ChatGPT\054 Claude\051) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 528.49 cm
+q
+BT
+1 0 0 1 17 13.55 Tm
+-10 0 Td
+12.05 TL
+/F3 10.55 Tf
+0 0 0 rg
+<7f20> Tj
+/F2 10.55 Tf
+(Analytical Skills\072) Tj
+/F3 10.55 Tf
+( Data cleaning and transformation\054 data modeling\054 dashboard development\054 forecasting\054) Tj
+T*
+10 0 Td
+(variance analysis\054 reconciliation\054 data validation\054 web scraping\054 stakeholder reporting) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 510.59 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1 Tm
+/F2 13.4 Tf
+14.4 TL
+(Professional Experience) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 509.04 cm
+q
+0.55 w
+1 J
+0 0 0 RG
+n
+0 0 m
+464.64 0 l
+S
+Q
+Q
+q
+1 0 0 1 73.68 495.19 cm
+q
+BT
+1 0 0 1 0 1.5 Tm
+12.05 TL
+/F2 10.55 Tf
+0 0 0 rg
+(Career Resources\054 Inc\056) Tj
+/F3 10.55 Tf
+( \055 Bridgeport\054 CT \174 ) Tj
+/F2 10.55 Tf
+(Data Analyst) Tj
+/F3 10.55 Tf
+( \174 Feb 2025 to Present) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 470.69 cm
+q
+BT
+1 0 0 1 17 13.55 Tm
+-10 0 Td
+12.05 TL
+/F3 10.55 Tf
+0 0 0 rg
+<7f204275696c74205461626c6561752064617368626f6172647320636f6d706172696e6720666f7572207965617273206f6620436f6e6e65637469637574207265656e747279207472656e6473206163726f737320656e642d6f662d73656e74656e636520616e64> Tj
+T*
+10 0 Td
+(community\055supervision populations\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 445.94 cm
+q
+BT
+1 0 0 1 17 13.55 Tm
+-10 0 Td
+12.05 TL
+/F3 10.55 Tf
+0 0 0 rg
+<7f20436f6d62696e6564206d756c74692d7965617220457863656c206461746120616e642072657368617065642069742066726f6d207769646520746f206c6f6e6720666f726d617420666f72205461626c6561753b2076616c69646174656420616e6e75616c> Tj
+T*
+10 0 Td
+(percentages and separated housing measures by source and population\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 421.19 cm
+q
+BT
+1 0 0 1 17 13.55 Tm
+-10 0 Td
+12.05 TL
+/F3 10.55 Tf
+0 0 0 rg
+<7f204372656174656420616e6420726566696e65642046593230323420696d7061637420696e666f67726170686963732077697468206c6561646572736869702c2070726573656e74696e67206f7574636f6d657320636f766572696e672034382c393433> Tj
+T*
+10 0 Td
+(individuals\054 nearly 3\054000 case\055managed clients\054 and 300\053 employers for board members and funders\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 407.34 cm
+q
+BT
+1 0 0 1 0 1.5 Tm
+12.05 TL
+/F2 10.55 Tf
+0 0 0 rg
+(New Canaan Land Trust) Tj
+/F3 10.55 Tf
+( \055 New Canaan\054 CT \174 ) Tj
+/F2 10.55 Tf
+(Data Analyst) Tj
+/F3 10.55 Tf
+( \174 Feb 2024 to Dec 2024) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 382.84 cm
+q
+BT
+1 0 0 1 17 13.55 Tm
+-10 0 Td
+12.05 TL
+/F3 10.55 Tf
+0 0 0 rg
+<7f204275696c7420507974686f6e2f53656c656e69756d20776f726b666c6f777320746f20636f6c6c6563742063757272656e74206d756e69636970616c2070726f70657274792d6f776e6572206461746120616e642070726f6475636520616e20457863656c> Tj
+T*
+10 0 Td
+(list staff used for outreach to neighboring property owners\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 358.09 cm
+q
+BT
+1 0 0 1 17 13.55 Tm
+-10 0 Td
+12.05 TL
+/F3 10.55 Tf
+0 0 0 rg
+<7f204d6174636865642070726f70657274792d6f776e6572207265636f72647320616761696e7374204c6974746c6520477265656e204c696768742043524d206578706f72747320696e20457863656c2c206964656e74696679696e67206578697374696e67> Tj
+T*
+10 0 Td
+(members and ownership changes for staff outreach\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 333.34 cm
+q
+BT
+1 0 0 1 17 13.55 Tm
+-10 0 Td
+12.05 TL
+/F3 10.55 Tf
+0 0 0 rg
+<7f20496e76657374696761746564206d697373696e6720616e6420696e636f6e73697374656e74206f776e6572207265636f72647320616e6420726566696e65642074686520757064617465206c6f67696320736f207468652066696e616c206f75747265616368206c697374> Tj
+T*
+10 0 Td
+(stayed accurate\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 319.49 cm
+q
+BT
+1 0 0 1 0 1.5 Tm
+12.05 TL
+/F2 10.55 Tf
+0 0 0 rg
+(ClearVest Advisers LLC) Tj
+/F3 10.55 Tf
+( \055 New York\054 NY \174 ) Tj
+/F2 10.55 Tf
+(Data Analyst Intern) Tj
+/F3 10.55 Tf
+( \174 May 2017 to August 2017) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 294.99 cm
+q
+BT
+1 0 0 1 17 13.55 Tm
+-10 0 Td
+12.05 TL
+/F3 10.55 Tf
+0 0 0 rg
+<7f20436f2d646576656c6f70656420507974686f6e20646174612d6d696e696e6720746f6f6c7320776974682053656c656e69756d2c2042656175746966756c536f757020616e642050616e6461732074686174206175746f6d61746564> Tj
+T*
+10 0 Td
+(securities data collection and restructured results into analysis\055ready datasets\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 277.09 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1 Tm
+/F2 13.4 Tf
+14.4 TL
+(Selected Projects) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 275.54 cm
+q
+0.55 w
+1 J
+0 0 0 RG
+n
+0 0 m
+464.64 0 l
+S
+Q
+Q
+q
+1 0 0 1 73.68 237.89 cm
+q
+BT
+1 0 0 1 17 25.6 Tm
+-10 0 Td
+12.05 TL
+/F3 10.55 Tf
+0 0 0 rg
+<7f20> Tj
+/F2 10.55 Tf
+(Walmart Store Performance) Tj
+/F3 10.55 Tf
+( \055 Built an independent Python\054 SQL Server and Power BI project for) Tj
+T*
+10 0 Td
+(421\054570 weekly sales records\054 with a star schema\054 SQL reporting views\054 joins\054 aggregations\054 validation) Tj
+T*
+(queries\054 DAX measures and forecasting\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 201.09 cm
+q
+BT
+1 0 0 1 17 25.6 Tm
+-10 0 Td
+12.05 TL
+/F3 10.55 Tf
+0 0 0 rg
+<7f20> Tj
+/F2 10.55 Tf
+(U\056S\056 Import Duty Exposure) Tj
+/F3 10.55 Tf
+( \055 Built a Power BI dashboard analyzing \0441\05614T in 2025 machinery and) Tj
+T*
+10 0 Td
+(electronics imports and \04480\0560B in calculated duties\054 with measures for dutiable value\054 effective duty rate\054) Tj
+T*
+(and sourcing\055country exposure\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 164.29 cm
+q
+BT
+1 0 0 1 17 25.6 Tm
+-10 0 Td
+12.05 TL
+/F3 10.55 Tf
+0 0 0 rg
+<7f20> Tj
+/F2 10.55 Tf
+(Gravity in the NBA) Tj
+/F3 10.55 Tf
+( \055 Built a Python pipeline and interactive dashboard using play\055by\055play and rotation) Tj
+T*
+10 0 Td
+(data to reconstruct lineups and analyze teammate shooting with and without each player\054 with lineup and) Tj
+T*
+(data\055quality checks\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 127.49 cm
+q
+BT
+1 0 0 1 17 25.6 Tm
+-10 0 Td
+12.05 TL
+/F3 10.55 Tf
+0 0 0 rg
+<7f20> Tj
+/F2 10.55 Tf
+(Left Right Audio Splitter) Tj
+/F3 10.55 Tf
+( \055 Built and published a Chrome extension used by 1\054000\053 users\054 using the Web) Tj
+T*
+10 0 Td
+(Audio API for per\055tab channel routing\054 one\055ear audio correction\054 channel swapping\054 and automatic) Tj
+T*
+(window\055based routing\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 109.59 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1 Tm
+/F2 13.4 Tf
+14.4 TL
+(Education) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 108.04 cm
+q
+0.55 w
+1 J
+0 0 0 RG
+n
+0 0 m
+464.64 0 l
+S
+Q
+Q
+q
+1 0 0 1 73.68 94.49 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.5 Tm
+/F2 10.55 Tf
+12.05 TL
+(Union College \055 Schenectady\054 NY \174 B\056A\056 in Economics) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 81.34 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.5 Tm
+/F3 10.55 Tf
+12.05 TL
+(Relevant coursework\072 Econometrics\054 Finance\054 Accounting\054 Quantitative Methods in Economics) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 68.19 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.5 Tm
+/F3 10.55 Tf
+12.05 TL
+(Google Data Analytics Professional Certificate) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 73.68 55.04 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.5 Tm
+/F3 10.55 Tf
+12.05 TL
+(Codecademy \055 Analyze Data with SQL Skill Path) Tj
+T*
+ET
+Q
+Q
+
+endstream
 endobj
 12 0 obj
 <<
-/Annots [ 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R ] /Contents 16 0 R /MediaBox [ 0 0 612 792 ] /Parent 15 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 
-  /Trans <<
-
->> /Type /Page
+/F1 13 0 R
+/F2 14 0 R
+/F3 15 0 R
 >>
 endobj
 13 0 obj
 <<
-/PageMode /UseNone /Pages 15 0 R /Type /Catalog
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 14 0 obj
 <<
-/Author (Connor Ashley) /CreationDate (D:20261020175714-04'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261020175714-04'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (Connor Ashley Resume) /Trapped /False
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 15 0 obj
 <<
-/Count 1 /Kids [ 12 0 R ] /Type /Pages
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 16 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2961
+/Author (Connor Ashley)
+/CreationDate (D\07220261020175714\05504\04700\047)
+/Creator (\050unspecified\051)
+/Keywords ()
+/ModDate (D\07220261020175714\05504\04700\047)
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Subject (\050unspecified\051)
+/Title (Connor Ashley Resume)
+/Trapped /False
 >>
-stream
-Gau0EgN)%.&q/)-oY]1EZQmkn/s\?kZEdqd]k++38=>lFq#qrc#r,"*,Uc)coC7/G]Z@MqF5kT3bI0rn5bn5Kl-k_a/q,q[f8ka5B68IaOk6;[K"R](UY-)^bhd_qj-:ho?0?#p"4q\@H?]Th>l,dP^;8!!4We9l0NX#j0$i)4n4Y2C*QL4;EOH59p+=P'd-RAers/Ha?fMRpHK?&@VY7SrT4dmZNlSJt??XG3SH5om)+,e?jb>*+(*[YDA4D'qrCP&shS5o$gMci!mJs_t"Xh$gjoiPWIkN%?6H@\TnYdKBWq\ja.cs7!.R&:Q:,T?2:,S[,p7.s7X*j=`I6&fp^;C>j]1j@1]8lc_QbCPbn4E(gbYIS(]hkD=>+mlsHD=pQVr+B]T)Z9)lf6NbfRAXTGLken]+i]cn3$2ipLQJZS[618)_A)0eoi%BDp;k.&>BnW1IE,V#8\Y6*U?8l)9mm8YY90\#Ikk;r0GE'ak2s@LJl&??FIqN,0grbNU.Aj>Dl<$6F`mp`sI+2e5>3+\:od`Q8jm7S`_I217F%[-I"!)M,*Hm4BBFP9I0VUL8H&1>'.52.ifEVh<Bnml26u_r$$QQOg!@j0j`GsnIcQ#5_diR(b,P#;]D4sDLE6L(p%5F+`RBWVbW6oKuWaNKjiQBJEmW)J;erllZDj,fGi=rBR>,B(@9E;"=(O;^@qha+s$'ZWW=J'Xi$+s5r7c/@NFa1P1_MM\474'E7ehR;Zm;8n3sB;@qrNhh[Q<\2mgY9T=plQ^MVB;2d_:VGc0-H=A3,\o[E4#jg8#JY;6(;qYe$ahbS12ZcR^lh&6gu-h#'io:6Ln'l8,$6s];H16f&dUDBD1J5M4eSE`5qQc@WfG]P`umS>/[@BT$10K^%p+Re2G`Ncbmn>H7u)XSUm!+X;YUO3(R=DT#M^.n,I>qP.'N4"acdBaO<G?/c:dXVD0QD%%tjPJA0fo*aOUe3<o'O7Bjhku<2Y#8+!hq6"1AUZ*A]4trrK3[Xp5QGR(BQ>kHF7adQQ<=Dbi4b,<fU>i_7s/P@/*Y_+oc7rm*r)jQC^#[@+\59p.cI=e1=LO6F,!r?^2k_#D)tHmYd>H'/+N]h=ceTc3cKT>Wt+aR@"f6VcfY.X/eP^UgZ]qYkUr,<&CTLIh>l!cQjLT/_ph,M"tc0l-kT\d!80K2XV>J=H9j*6:a;3s)^#P)Vd#qu8kVXj:N_s85.C3Zc+B)AR"IPtA+h=3Q.`UP*2$FbL(GXla[;!PXJpmFH@9FJOI9J?Ll%/S.[C*(H"^0HpKNeo:fMWkEnO&1(nqEj;B:=5"3IeU[<3-]!WT4Uq6)8F,o?P?(ZCr-Y]h1<&keYG,r,e)gD<mOce/,W'NpH]BtgDFVKUnC<K3U8G__IC06et3jd+OF$gY1CcbOO]'JSPdW/ZL;Js'09I]OTB4$ZBj8gQ'f%#]5aSB_S*+ErEiHGe=4fA6$3.\'\C!%p[&`e[@!V/FJ!+oFbUgCX^4#rDJjoOG0nPB:+)B9H+)l7J=1JLLjbP0ofgn/rE>2QY;_m\#l%Y@3ljSu3N6G*_9Y3D;8Vdf4P[dpoVrPJ7"NYiG/Uis_!:?j5!n!ogSM%CFOI_]mU"N(rnd(kPu5cdS,D.T;#(&sS\SlaHI5#%Q76M>KSV;kch64lCu#*^Wk3/1Ahp&4Q[s#712W?8@g]$-KU,Ws,n:U_+9rrm5YGR96r8pa[4Eh^hD#An8.\&:K:NPVJl-.qW-n/6@QQ+)e]l5]Or.I"a(SUfd&c`Kp6F^T$S)(8r8G3#RU%,>$!aM3p;[h,S^'Ea#5>]%o`Anp7KEa(l"1Q^2\:Q"@S!#1<c$aY6\c\`sbaR?aR1@2:1jf03<dhSW7lX2Y2CA^<BhqNdPp#9klgj5.Js+h@I4oa#4dr=ur@EIa4n@C`q:I%M`L,C*Jbrpua)M/2TJ)BWRH>Hn>V+@=/)EP;Q3fuo,pG"+W-FO[mrgSIl(bKEA-'>9BsQt($'M5$MfVs>bB=kf>e`$iWMVBZ;jIUj`kWXP>uJkSf%@22\+HB[L*605KjcifkAE)7k*gON!po\PumNF^ES$u3*CiKdQNC$_(i5Asf-n+;Y`Y<1Q+h*q?<h=#8+N'qDoC=!dESP6/CW]Gra&T2@iaSt^T7WjscW'NUhWkhrK#6TdW<e'&%MinU4'U_4Y>d6i#4N_(6":KgM,>kPJ4'Pi<\\Z(e*>cn1.[Pj>D*@14l43T)c4(DXTs*<%40(_lI:4@b>jjask@e<"j@gT*Nd-o_/k8>uCT#k<(W3P"q6'P$l1.&^ePD:#]c!.ag[[`T?19Y]LI;#k7=;+F(6C!q$6-VAVkNFdk<'(IFe9C&dNZblFfGmPm8YcEr.MI;a!-j%P)BJkq-*?Q/MX0T?+<$rZO.Z&[XF_$ejbrED[MAWAEs*+6+KV,)BBK0T'P#*o5R,S$49L,_FG6EXI1I=U3&[AUnZ=/6EtCR[r)+OOJ"L-i*/^l1+'NX*_mD;8\@H_'N$?3Nn-aYM!:83Q.@j#b/;WBIR*9H>C1WaR?dk)-@1UX]3b@b`'8/^H0@ILnu^L]I-9SSB^rTp$UZ#<rYjsNdPO[++T2*lG<t-JF/TOKH@dIo1m/J*K8QosYZ7[dofVY[Iceffcn6N\@K0'IpYo%$5JFb<TSI],)_nf?/k5l0_U%pp8B8$\D6:%[_/X0dnQPV4Ca5+=51D0bVt0.='ISn-\R6Z*GoJ!eNa@.HF9-C]"G5N:@sF4?,tOK]bGH%AmKjGJhZJ7`3J%p1&ke(C:OuM0/:gVGA_O[NG-"$6^)Uh=f[+F/Ath3Ii"m%K_4tds)@8Gt1Wdnm0BLp9Ufb?"Q]T%^[k/NqQLeqb5NI&\EV>#4DC&1<aF;(oZXJ:Cn/AX:ZsJ?kG66?7*I)VU3'i1m((08=4Da@CI1>kD/JB.t0F'Ae,,!tZfW8Y<&nTJ,a2ZJsB(a@^HLlX4+m!5~>endstream
 endobj
 xref
 0 17
 0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000327 00000 n 
-0000000436 00000 n 
-0000000609 00000 n 
-0000000794 00000 n 
-0000000989 00000 n 
-0000001211 00000 n 
-0000001431 00000 n 
-0000001647 00000 n 
-0000001870 00000 n 
-0000002122 00000 n 
-0000002192 00000 n 
-0000002480 00000 n 
-0000002541 00000 n 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000142 00000 n 
+0000000388 00000 n 
+0000000570 00000 n 
+0000000779 00000 n 
+0000001001 00000 n 
+0000001259 00000 n 
+0000001518 00000 n 
+0000001772 00000 n 
+0000002034 00000 n 
+0000010480 00000 n 
+0000010535 00000 n 
+0000010643 00000 n 
+0000010752 00000 n 
+0000010862 00000 n 
 trailer
 <<
-/ID 
-[<204b431936c41ccf2dc0705632ab0b0e><204b431936c41ccf2dc0705632ab0b0e>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 14 0 R
-/Root 13 0 R
 /Size 17
+/Root 1 0 R
+/Info 16 0 R
+/ID [ ( KC\0316\304\034\317\055\300pV2\253\013\016) ( KC\0316\304\034\317\055\300pV2\253\013\016) ]
 >>
 startxref
-5594
+11186
 %%EOF
